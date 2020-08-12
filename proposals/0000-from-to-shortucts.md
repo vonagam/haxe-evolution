@@ -17,7 +17,7 @@ Reduced repetetion and improved readability for two really common scenarios.
 Syntax for allowing from and to cast:
 
 ```haxe
-abstract Foo(Int) from to Int {}
+abstract Foo(Int) cast Int {}
 // equals
 abstract Foo(Int) from Int to Int {}
 ```
@@ -36,7 +36,7 @@ None.
 
 ## Drawbacks
 
-Some might say that one can forget a type between `from` and `to`...
+None.
 
 ## Alternatives
 
